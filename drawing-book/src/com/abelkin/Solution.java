@@ -15,11 +15,7 @@ public class Solution {
         /*
          * Write your code here.
          */
-        if (p <= (n / 2.0)) {
-            return (int)Math.floor(p / 2.0);
-        } else {
-            return (int)Math.floor((n - p + ((n + 1) % 2)) / 2.0);
-        }
+        return Math.min(p/2, n/2 - p/2);
     }
 
     private static final Scanner scanner = new Scanner(System.in);
