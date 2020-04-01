@@ -9,7 +9,7 @@ public class Solution {
         String s = scan.nextLine().trim();
         String[] strings = s.split("[ !,?._'@]+");
         if (s.equals("")) {
-            System.out.println(0);;
+            System.out.println(0);
             return;
         }
         System.out.println(strings.length);
