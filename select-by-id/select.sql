@@ -1,2 +1,3 @@
 select *
-  from city;
+  from city
+ where id = 1661;
